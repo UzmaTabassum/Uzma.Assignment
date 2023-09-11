@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+
+       
+            ul {
+                list-style-type: none;
+                margin-left: 75%;
+                padding: 0;
+                overflow: hidden;
+                background-color:grey;
+             
+            }
+            li {
+                float: left;
+                border-right: 1px solid blue;
+            }
+            li a {
+                display:block;
+                color: blue;
+                text-align: center;
+                padding: 14px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+    background-color: rgb(60, 52, 52);
+}
+.active{
+  background-color: rgb(66, 61, 61);
+}
+    </style>
+</head>
+<body>
+    <h2>Vertical Navigation Bar</h2>
+    <nav style="background-color: skyblue; border-style: solid; margin-right: 80%;">
+        <div style="border:10px solid white;">
+        <H1 style="background-color:orange; padding:20px"><a href="home.html" style="text-decoration: none;color: aliceblue;">Home</a></H1>
+        <H1 style="padding-left: 20px;" ><a href="Java.html" style="text-decoration: none;">Java</a</H1>
+        <H1 style="padding-left: 0px;"><a href="CS.html" style="text-decoration: none;">CSS</a></H1>
+        <H1 style="padding-left: 20px;"><a href="HTML.html" style="text-decoration: none;">HTML</a></H1>
+        <H1 style="padding-left: 20px;padding-bottom: 20px;"><a href="BS.html" style="text-decoration: none;">Bootstrap</a></H1>
+
+
+    </div>
+    </nav>
+
+    <h2 style="text-align: right;">Horizantal Navigation Bar</h2>
+        <ul>
+           
+            <li><a class="active" href="#home" style="color: aliceblue;">Home</a></li>
+            <li><a href="Java">Java</a></li>
+            <li><a href="HTML">HTML</a></li>
+            <li><a href="CSS">CSS</a></li>
+       
+        </ul>
+</body>
+</html>
